@@ -37,11 +37,23 @@ Check out Date and Time.</button>
       document.getElementById("demo3").innerHTML = d;
     }
     </script>
-    
-    
+    <p>Enter your CSGO Silver Rank's No. and click the Try it button:</p>
 
-    <p>this is my new site</p>
+<input id="rank" value="type here.." />
 
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo4"></p>
+
+<script>
+function myFunction() {
+  var rank, playable;
+  rank = document.getElementById("rank").value;
+  playable = (rank < 3) ? "U r Noob U Can't":"Pro enough to";
+  document.getElementById("demo4").innerHTML = playable + " Play.";
+}
+</script>
+    
 
 
 </body>
