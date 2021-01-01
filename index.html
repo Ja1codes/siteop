@@ -27,27 +27,27 @@ Check out Date and Time.</button>
         <path d="M410.651,255h-294c-13.785,0-25,11.215-25,25v141h344V280C435.651,266.215,424.436,255,410.651,255z M289.651,368h-52   c-8.284,0-15-6.716-15-15s6.716-15,15-15h52c8.284,0,15,6.716,15,15S297.936,368,289.651,368z"/>
     </g><p>This is me.Don't Worry:)</p>
 
-    <button onclick="myFunction()">Click to check Date&Time when i came</button>
+    <button onclick="myFunction1()">Click to check Date&Time when i came</button>
     
     <p id="demo3"></p>
     
     <script>
         var d = new Date(2001, 3, 17, 8, 30, 55, 52, 14);
-    function myFunction() {
+    function myFunction1() {
       document.getElementById("demo3").innerHTML = d;
     }
     </script>
-    
+
     <p>Enter your CSGO Silver Rank's No. and click the Try it button:</p>
 
 <input id="rank" value="type here.." />
 
-<button onclick="myFunction()">Try it</button>
+<button onclick="myFunction2()">Try it</button>
 
 <p id="demo4"></p>
 
 <script>
-function myFunction() {
+function myFunction2() {
   var rank, playable;
   rank = document.getElementById("rank").value;
   playable = (rank < 3) ? "U r Noob U Can't":"Pro enough to";
