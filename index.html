@@ -25,9 +25,16 @@ Check out Date and Time.</button>
         <path d="M263.651,209.479c16.148,0,30.322-11.462,33.701-27.253l8.384-39.187c-27.491-3.467-55.758-3.583-84.17,0l8.384,39.188   C233.329,198.017,247.503,209.479,263.651,209.479z"/>
         <path d="M91.651,451v26c0,19.299,15.701,35,35,35h274c19.299,0,35-15.701,35-35v-26H91.651z"/>
         <path d="M410.651,255h-294c-13.785,0-25,11.215-25,25v141h344V280C435.651,266.215,424.436,255,410.651,255z M289.651,368h-52   c-8.284,0-15-6.716-15-15s6.716-15,15-15h52c8.284,0,15,6.716,15,15S297.936,368,289.651,368z"/>
-    </g><p>This is me.Don't Worry:)</p>
+    </g><h4>This is me.Don't Worry:)</h4>
+    <button onclick="myFunction4()">Don't Click me</button>
 
-    <button onclick="myFunction1()">Click to check Date&Time when i came</button>
+<script>
+function myFunction4() {
+  alert("U mf I told u not to click me!");
+}
+</script>
+<br><hr>
+<button onclick="myFunction1()">Click to check Date&Time when i came</button>
     
     <p id="demo3"></p>
     
@@ -38,7 +45,7 @@ Check out Date and Time.</button>
     }
     </script>
 
-    <p>Enter your CSGO Silver Rank's No. and click the Try it button:</p>
+    <h3>Enter your CSGO Silver Rank's No. and click the Try it button:</h3>
 
 <input id="rank" value="type here.." />
 
@@ -51,10 +58,12 @@ function myFunction2() {
   var rank, playable;
   rank = document.getElementById("rank").value;
   playable = (rank < 3) ? "U r Noob U Can't":"Pro enough to";
-  document.getElementById("demo4").innerHTML = playable + " Play.";
+  document.getElementById("demo4").innerHTML = playable + " Play CSGO.";
 }
 </script>
-    
+
+
+
 
 
 </body>
